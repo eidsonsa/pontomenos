@@ -4,6 +4,8 @@ export class CustomClient extends Client {
     constructor(clientOptions: ClientOptions) {
         super(clientOptions);
     }
+    
+    // custom client
 
     public setPresence(
         type: Exclude<ActivityType, ActivityType.Custom>,
