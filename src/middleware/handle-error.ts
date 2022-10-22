@@ -6,6 +6,8 @@ import { Logger } from '../services/index.js';
 const require = createRequire(import.meta.url);
 let Logs = require('../../lang/logs.json');
 
+// vamo
+
 export function handleError(): ErrorRequestHandler {
     return (error, req, res, _next) => {
         Logger.error(
